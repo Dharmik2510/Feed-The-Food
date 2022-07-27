@@ -21,9 +21,7 @@ const AddNgoDetails = () => {
   const REGION = "us-west-2";
 
   AWS.config.update({
-    // accessKeyId: "AKIA6AYF2HQB6GQ6TCOR",
-    // secretAccessKey: "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",
-    // region: REGION,
+ 
   });
 
   const myBucket = new AWS.S3({
