@@ -3,9 +3,7 @@ import { Amplify, Auth } from "aws-amplify";
 export const DonorAuthConfigure = () => {
   Amplify.configure({
     Auth: {
-      // region: "us-west-2",
-      // userPoolId: "us-west-2_GiVDlUES0",
-      // userPoolWebClientId: "1lvv802tm53co0172n8j37mnrn",
+    
     },
   });
 };
@@ -13,9 +11,7 @@ export const DonorAuthConfigure = () => {
 export const NGOAuthConfigure = () => {
   Amplify.configure({
     Auth: {
-      // region: "us-west-2",
-      // userPoolId: "us-west-2_A9U5BMNrN",
-      // userPoolWebClientId: "14hqqeapu3n39ihlk3b3btoskd",
+    
     },
   });
 };
@@ -23,9 +19,7 @@ export const NGOAuthConfigure = () => {
 export const AdminAuthConfigure = () => {
   Amplify.configure({
     Auth: {
-      // region: "us-west-2",
-      // userPoolId: "us-west-2_9cwyF5qIR",
-      // userPoolWebClientId: "8hrm99eenk8dfsvvet9d85ies",
+     
     },
   });
 };
