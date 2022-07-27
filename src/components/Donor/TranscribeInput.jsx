@@ -13,8 +13,7 @@ const S3_BUCKET = "donor-transcribe-input-prod";
 const REGION = "us-west-2";
 
 AWS.config.update({
-  // accessKeyId: "AKIA6AYF2HQB6GQ6TCOR",
-  // secretAccessKey: "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",
+
 });
 
 const myBucket = new AWS.S3({
