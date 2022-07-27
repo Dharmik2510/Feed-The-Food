@@ -2,9 +2,7 @@
 var AWS = require("aws-sdk");
 
 const awsConfig = {
-  // region: "us-west-2",
-  // accessKeyId: "AKIA6AYF2HQB2HDQ42OR",
-  // secretAccessKey: "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",
+ 
 };
 
 const SES = new AWS.SES(awsConfig);
