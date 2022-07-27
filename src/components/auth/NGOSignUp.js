@@ -17,11 +17,10 @@ export default function NGOSignUp() {
   const [isSignedUpPage, setSignUpPage] = useState(true);
 
   // const S3_BUCKET = "ngo-document-upload-bucket-prod";
-  // const REGION = "us-west-2";
+  // const REGION = ";
 
   AWS.config.update({
-    // accessKeyId: "AKIA6AYF2HQB2HDQ42OR",
-    // secretAccessKey: "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",
+   
   });
 
   const myBucket = new AWS.S3({
