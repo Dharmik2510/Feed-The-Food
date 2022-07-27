@@ -9,9 +9,7 @@ var AWS = require("aws-sdk"),
 
 // Create a Secrets Manager client
 var client = new AWS.SecretsManager({
-  // region: region,
-  // accessKeyId: "AKIA6AYF2HQB2HDQ42OR",
-  // secretAccessKey: "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",
+  
 });
 
 router.get("/", async function (req, res) {
