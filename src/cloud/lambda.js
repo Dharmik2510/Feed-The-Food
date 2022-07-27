@@ -2,8 +2,7 @@ const AWS = require("aws-sdk");
 
 // you shouldn't hardcode your keys in production! See http://docs.aws.amazon.com/AWSJavaScriptSDK/guide/node-configuring.html
 AWS.config.update({
-  // accessKeyId: "AKIA6AYF2HQB2HDQ42OR",
-  // secretAccessKey: "WPL285O5pK60mntl+t9T15cCYVLWFQ8klxMGq4ew",
+
 });
 
 function invokeLambda(document) {
